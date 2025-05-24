@@ -16,7 +16,7 @@ st.markdown("Esta aplicación predice el **riesgo de aseguramiento** de un condu
 
 # Imagen representativa
 image = Image.open("auto_riesgo.jpg")  # Cambia el nombre de archivo según tu imagen
-st.image(image, caption="Análisis de riesgo en seguros vehiculares", use_column_width=True)
+st.image(image, caption="Análisis de riesgo en seguros vehiculares", use_container_width=True)
 
 # Sidebar para inputs
 st.sidebar.header("🔧 Parámetros de entrada")
